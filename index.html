@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Assets/Css/style.css" />
+    <link rel="icon" href="Assets/Images/cropped-favicon-192x192.png">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    <title>Architecture</title>
+  </head>
+  <body>
+    <header data-aos="fade-down"
+    data-aos-duration="1000">
+      <img src="Assets/Images/logo-light.png" alt="" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li>
+          <a href="#">Works</a>
+          <ul class="drop-M">
+            <li><a href="#">Overlay Images</a></li>
+            <li><a href="#">Overlay Images 2</a></li>
+            <li><a href="#"> Images With Caption</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Single Project</a>
+          <ul class="drop-M">
+            <li><a href="#">Images Slider</a></li>
+            <li><a href="#">Right Slider</a></li>
+            <li><a href="#"> Full width</a></li>
+            <li><a href="#"> Gallery Images</a></li>
+          </ul>
+        </li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+      <!-- Drop MEdia -->
+      <div class="toggle" id="menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li>
+            <a href="#">Works</a>
+            <ul class="drop-M">
+              <li><a href="#">Overlay Images</a></li>
+              <li><a href="#">Overlay Images 2</a></li>
+              <li><a href="#"> Images With Caption</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Single Project</a>
+            <ul class="drop-M">
+              <li><a href="#">Images Slider</a></li>
+              <li><a href="#">Right Slider</a></li>
+              <li><a href="#"> Full width</a></li>
+              <li><a href="#"> Gallery Images</a></li>
+            </ul>
+          </li>
+          <li><a href="#">contact us</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="slideshow-container">
+      <div class="content" >
+        <h3 data-aos="zoom-in" data-aos-duration="1000">Welcome To</h3>
+        <h2 data-aos="zoom-in" data-aos-duration="1000">Creativity & Contemporary</h2>
+        <p data-aos="zoom-in" data-aos-duration="1000"></pdata-aos> Whatever good things we build end up building us.</p>
+        <div class="btns" data-aos="zoom-out" data-aos-duration="1000">
+          <button>Learn More</button>
+          <button>About us</button>
+        </div>
+      </div>
+      <div
+        class="mySlides fade"
+        style="
+          background: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.3),
+              rgba(0, 0, 0, 0.2)
+            ),
+            url(Assets/Images/home-3.jpg);
+        "
+      ></div>
+
+      <div
+        class="mySlides fade"
+        style="
+          background: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.3),
+              rgba(0, 0, 0, 0.2)
+            ),
+            url(Assets/Images/home-2.jpg);
+        "
+      ></div>
+
+      <div
+        class="mySlides fade"
+        style="
+          background: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0.3),
+              rgba(0, 0, 0, 0.2)
+            ),
+            url(Assets/Images/home-1.jpg);
+        "
+      ></div>
+
+      <a data-aos="fade-right" data-aos-duration="2200" class="prev" onclick="plusSlides(-1)">❮</a>
+      <a  data-aos="fade-left" data-aos-duration="2200" class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <!-- End Of First -S -->
+    <!-- Box Color -->
+    <div class="setting-box">
+      <i>&#9881;</i>
+      <div class="seting-op">
+        <button>Buy Now !</button>
+        <p>Chose Color</p>
+        <div class="lists">
+          <ul>
+            <li class="act" data-color="#ae9768"></li>
+            <li data-color="#218fe6"></li>
+            <li data-color="#f44336"></li>
+            <li data-color="#9c27b0"></li>
+            <li data-color="#673ab7"></li>
+            <li data-color="#3f51b5"></li>
+            <li data-color="#2196f3"></li>
+            <li data-color="#00bcd4"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#4caf50"></li>
+            <li data-color="#8bc34a"></li>
+            <li data-color="#cddc39"></li>
+            <li data-color="#ffc107"></li>
+            <li data-color="#ff9800"></li>
+            <li data-color="#ff5722"></li>
+            <li data-color="#607d8b"></li>
+            <li data-color="#840A16"></li>
+            <li data-color="#B3056C"></li>
+          </ul>
+        </div>
+        <span>Chose Demo Site :</span>
+        <div class="demo">
+          <img src="Assets/Images/bakery_1.jpg" alt="" />
+          <img src="Assets/Images/app.jpg" alt="" />
+        </div>
+        <div class="demo">
+          <img src="Assets/Images/gym.jpg" alt="" />
+          <img src="Assets/Images/app-one-pager.jpg" alt="" />
+        </div>
+        <div class="demo">
+          <img src="Assets/Images/restaurant.jpg" alt="" />
+          <img src="Assets/Images/shop-dark.jpg" alt="" />
+        </div>
+        <div class="demo">
+          <img src="Assets/Images/photography-dark.jpg" alt="" />
+          <img src="Assets/Images/agency-creative.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Of Box Color -->
+
+    <div class="title" data-aos="fade-down"
+    data-aos-duration="1000">
+      <h2>Architecture is the thoughtful making of space.</h2>
+      <p>
+        Vivamus justo sem, vulputate at mi ut, maximus consequat augue.
+        Curabitur in tortor et libero tincidunt vulputate nec vehicula nunc.
+        Donec mollis non lectus eu vestibulum. Nunc elementum justo nec iaculis
+        egestas. Fusce eleifend nibh non libero interdum.
+      </p>
+    </div>
+    <!-- Section - Two -->
+    <section class="about" >
+      <div class="continar-item">
+        <div class="pic" data-aos="fade-left"
+        data-aos-duration="1000">
+          <img src="Assets/Images/archi-8-700x640.jpg" alt="" />
+        </div>
+
+        <div class="content-detils" data-aos="fade-left"
+        data-aos-duration="1000">
+          <h2>Less is more.</h2>
+          <p>
+            We have been operating for over 30 years and are Members of The
+            Federation of Master Builders. We work on projects big and small
+            from small residential extensions to full house. We are so happy
+            with this theme. Everyday it make our lives better.
+          </p>
+          <div class="right" >
+            <i class="fa-solid fa-check"></i>
+            <span>Aliquam fermentum lorem quis posuere mattis.</span>
+          </div>
+          <div class="right">
+            <i class="fa-solid fa-check"></i>
+            <span>Sed mollis sapien erat id pellentesque libero.</span>
+          </div>
+          <div class="right">
+            <i class="fa-solid fa-check"></i>
+            <span>Pellentesque nisl id semper bibendum.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="continar-item continar-item-1">
+        <div class="pic pic-1" data-aos="fade-right"
+        data-aos-duration="1000">
+          <img src="Assets/Images/archi-4-700x640.jpg" alt="" />
+        </div>
+
+        <div class="content-detils content-detils-1" data-aos="fade-right"
+        data-aos-duration="1000">
+          <h2>Architecture is a visual art.</h2>
+          <p>
+            We have been operating for over 30 years and are Members of The
+            Federation of Master Builders. We work on projects big and small
+            from small residential extensions to full house. We are so happy
+            with this theme. Everyday it make our lives better.
+          </p>
+          <div class="right right-1">
+            <i class="fa-solid fa-check"></i>
+            <span>Aliquam fermentum lorem quis posuere mattis.</span>
+          </div>
+          <div class="right right-1">
+            <i class="fa-solid fa-check"></i>
+            <span>Sed mollis sapien erat id pellentesque libero.</span>
+          </div>
+          <div class="right right-1">
+            <i class="fa-solid fa-check"></i>
+            <span>Pellentesque nisl id semper bibendum.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ENd oF Sectio Two -->
+    <!-- Count - Section -->
+    <div class="section-count">
+      <div class="count" data-aos="zoom-in" data-aos-duration="2000">
+        <i class="fa-regular fa-thumbs-up"></i>
+        <p data-goal="1240">231</p>
+        <span>Page Likes</span>
+      </div>
+      <div class="count" data-aos="zoom-in" data-aos-duration="2000">
+        <i class="fa-solid fa-house"></i>
+        <p data-goal="80">4</p>
+        <span>Page Likes</span>
+      </div>
+      <div class="count" data-aos="zoom-in" data-aos-duration="2000">
+        <i class="fa-regular fa-lightbulb"></i>
+        <p data-goal="900">4</p>
+        <span>Page Likes</span>
+      </div>
+      <div class="count" data-aos="zoom-in" data-aos-duration="2000">
+        <i class="fa-brands fa-rocketchat"></i>
+        <p data-goal="420">4</p>
+        <span>Page Likes</span>
+      </div>
+    </div>
+    <!-- End of Counter  -->
+    <section class="time">
+      <div class="timeContinar"  data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+        <div class="time-content">
+          <h2>Buildings should serve people, not the other way around.</h2>
+          <p>
+            Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum
+            magna, eget commodo leo velit sit amet velit. Aliquam fermentum,
+            lorem quis posuere mattis, est justo porttitor magna.
+          </p>
+        </div>
+        <div class="time-pic">
+          <img src="Assets/Images/archi-17-300x225.png" alt="" />
+        </div>
+      </div>
+      <div class="cards-continar">
+        <div class="cards"  data-aos="fade-down-left" data-aos-duration="800">
+          <div class="card-i"><i class="fa-regular fa-lightbulb"></i></div>
+          <div class="card-d">
+            <h2>Creativity</h2>
+            <p>
+              Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum
+              magna.
+            </p>
+          </div>
+        </div>
+        <div class="cards" data-aos="fade-down-left" data-aos-duration="1000">
+          <div class="card-i"><i class="fa-solid fa-pencil"></i></div>
+          <div class="card-d">
+            <h2>Unique Design</h2>
+            <p>
+              Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum
+              magna.
+            </p>
+          </div>
+        </div>
+        <div class="cards" data-aos="fade-down-left" data-aos-duration="1400">
+          <div class="card-i"><i class="fa-regular fa-heart"></i></div>
+          <div class="card-d">
+            <h2>Satisfied Clients</h2>
+            <p>
+              Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum
+              magna.
+            </p>
+          </div>
+        </div>
+        <div class="cards" data-aos="fade-down-left" data-aos-duration="2000">
+          <div class="card-i"><i class="fa-solid fa-id-card"></i></div>
+          <div class="card-d">
+            <h2>Portfolios</h2>
+            <p>
+              Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum
+              magna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Count -->
+
+    <section class="test-montier">
+      <div class="test-content" data-aos="zoom-out" data-aos-duration="1000">
+        <div class="title">
+          <h2>Testimonials</h2>
+          <p>What our awesome clients say about us.</p>
+        </div>
+        <div class="prag-continar">
+          <div class="prag">
+            <p>
+              Formas humanitatis per seacula quarta decima et quinta decima.
+              Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+              futurum quarta decima et quinta decima.
+            </p>
+          </div>
+          <div class="prag">
+            <p>
+              Formas humanitatis per seacula quarta decima et quinta decima.
+              Modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+              futurum quarta decima et quinta decima.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Rutern -->
+    <section class="maps" data-aos="zoom-in" data-aos-duration="1000" id="blog">
+      <div class="info">
+        <h2>Contact Information</h2>
+        <p>
+          I am text block. Click edit button to change this text. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+          nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+        <span>Our contact details:</span>
+        <ul>
+          <li>
+            <i class="fa-solid fa-map"></i
+            ><span>Manchester St 123-78B, Random 713, UK</span>
+          </li>
+          <li><i class="fa-solid fa-phone"></i><span>+46 123 456 789</span></li>
+          <li>
+            <i class="fa-solid fa-headphones"></i><span>+37 431 456 789</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i><span>hello@sitename.com</span>
+          </li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/search/google+maps+iframe/@19.1511188,13.8633018,4z/data=!3m1!4b1?entry=ttu"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </section>
+    <!-- End Of Section five -->
+    <!--Detils Section -->
+    <section class="last" id="contact">
+      <div class="fr1">
+        <h2>About us</h2>
+        <p>
+          I am text block. Click edit button to change this text Lorem ipsum
+          dolor sit amet consectetur. I am text block. Click edit button to
+          change this text. Lorem ipsum dolor sit amet, consectetur.
+        </p>
+        <span
+          >We are the champions! We are the most amazing theme of all time,
+          yeah.</span
+        >
+      </div>
+      <div class="th3">
+        <h2>Opening Hours</h2>
+        <span>> Monday 10AM - 9PM</span>
+        <span>> Tuesday 10AM - 9PM</span>
+        <span>> Wednesday 10AM - 9PM</span>
+        <span>> Thursday 10AM - 10PM</span>
+        <span>> Friday 10AM - 10PM</span>
+        <span>> Weekends 10AM - 11PM</span>
+      </div>
+      <div class="fo4">
+        <h2>Contact Details</h2>
+        <div>
+          <div style="border-bottom: none">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <span>Manchester Road 123-78B, Silictown 7854MD, Great Country</span>
+        </div>
+        <div>
+          <div style="border-bottom: none">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <span>+46 123 456 789</span>
+        </div>
+        <div>
+          <div style="border-bottom: none">
+            <i class="fa-solid fa-message"></i>
+          </div>
+          <span>hello@sitename.com</span>
+        </div>
+        <div>
+          <div style="border-bottom: none">
+            <i class="fa-solid fa-earth-africa"></i>
+          </div>
+          <span>http://www.sitename.com</span>
+        </div>
+      </div>
+    </section>
+    <!--End Of Detils Section -->
+    <!-- Footer  -->
+    <div class="last-log">
+      <div class="content-l">
+        <img src="Assets/Images/barber-light-1.png" alt="" />
+
+        <p>
+          Copyright 2024. All Rights Created By. <span>Ahmed El Sawah</span>
+        </p>
+      </div>
+    </div>
+    <!--  End Of Footer  -->
+
+    <script src="Assets/Js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
